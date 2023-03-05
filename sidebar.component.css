@@ -1,0 +1,26 @@
+.sidebar {
+  margin-left:-10px;
+  /* margin-top: 10px; */
+  padding: 30px 15px;
+  width: 180px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.botn{
+  margin:30px 15px;
+  padding:20px;
+  place-items: center;
+  display:block;
+  text-decoration: none;
+  background-color: black;
+  color:white;
+}
+.botn:hover{
+ background-color: gray;
+}
+
+
+

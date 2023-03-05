@@ -1,0 +1,24 @@
+/* .dashwrapper{
+ display: flex;
+ flex-direction: column;
+
+} */
+
+/* li{
+border:1px solid gray;
+padding:10px;
+margin:5px;
+} */
+html{
+  height:100%;
+}
+body{
+  height:100%;
+  width:100%;
+}
+.logoutButton {
+  color:black;
+  background-color: white;
+  border:1px solid black;
+ margin:10px;
+}

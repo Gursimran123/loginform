@@ -1,0 +1,17 @@
+<div class="wrapper">
+
+
+  <div class="block">
+    <form [formGroup]="signup">
+      <h2>SIGNUP</h2>
+      <input type="text" placeholder="Enter name" class="inp" formControlName="name" />
+      <input type="text" placeholder="Enter email" class="inp" formControlName="email" />
+      <div class="btns">
+        <button (click)="signupSubmit(signup.value)" [disabled]="signup.invalid">SIGNUP</button>
+        <button (click)="goToLogin()">LOGIN</button>
+      </div>
+    </form>
+  </div>
+
+
+</div>

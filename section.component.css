@@ -1,0 +1,13 @@
+div{
+  /* display:none; */
+  margin-left:200px;
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width:calc(100%-200px);
+}
+section{
+  padding: 100px 0;
+}
+

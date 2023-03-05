@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  display:flex;
+  padding:10px;
+  left: 208px;
+  bottom: 0;
+  width: 100%;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+}
+.icons{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+}
+.icons a{
+  padding:10px;
+}
+.icons a:hover{
+  color:black;
+}

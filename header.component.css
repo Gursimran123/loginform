@@ -1,0 +1,26 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  margin:-10px;
+  overflow-x: hidden;
+  width:calc(100%-180px);
+}
+
+
+.header .logo {
+  margin-left:230px;
+  height:70px;
+  width:70px;
+}
+
+
+.header-right {
+  float: right;
+}
+.logoutButton {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+}
